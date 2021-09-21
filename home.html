@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>noon.com - Online Shopping in Egypt</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+         
+        <!-- Start Header -->
+        
+        <div class="header">
+          
+        <!-- Noon Logo on the left of header -->       
+           <div class="noonlogo">
+              <a href="https://www.noon.com/egypt-en"><img src="css/images/noonLogo.PNG" width="100px" height="40px" alt="noon Logo"></a>  
+           </div>
+   
+           <!-- The search box in the header -->
+            <input class="search" type="text" placeholder="What are you looking for?">
+            
+            <!-- Chosing Language --> 
+            <p class="lang">العربية</p>
+            
+            <!-- Chosing Country -->
+            <select class="country">
+                <option>UAE</option>
+                <option>KSA</option>
+                <option>Egypt</option>
+            </select>
+            
+            <!-- Sign in -->
+            <div class="link">
+            <a href="signIn.html" class="signin">Sign In</a>
+            </div>
+            
+            <!-- Customer Cart -->
+            <div class="cartandimage">
+                <a class="cart" href="cartflower.html">Cart</a>
+                <img src="css/images/cart2.png" width="18">
+            </div>
+        <div class="empty1"></div>
+        </div> 
+        <!-- End Header -->
+        
+        <!-- Start NavBar -->
+        <div class="navbar">
+           
+           <!-- The Dropdown Button -->
+           <div class="dropdown">
+              <button class="dropbtn">All Categories  &#8744;</button>
+                  <div class="dropdown-content">
+                      <ul>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/electronics">ELECTRONICS</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/mobiles">MOBILES</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/fashion">FASHION</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/home-kitchen">HOME</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/beauty">BEAUTY &amp; HEALTH</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/baby">BABY</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/grocery">SUOPERMARKET</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/daily-deals-eg">DEALS</a>
+                        </li>
+                        </ul>
+                  </div>
+            </div>
+            
+            <!-- The links next to the dropdown -->
+            <ul class="widelinks">
+                <li>
+                <a href="https://www.noon.com/egypt-en/electronics">ELECTRONICS</a>
+                </li>
+                <li>
+                <a href="https://www.noon.com/egypt-en/mobiles">MOBILES</a>
+                </li>
+                <li>
+                <a href="https://www.noon.com/egypt-en/fashion">FASHION</a>
+                </li>
+                <li>
+                <a href="https://www.noon.com/egypt-en/home-kitchen">HOME</a>
+                </li>
+                <li>
+                <a href="https://www.noon.com/egypt-en/beauty">BEAUTY &amp; HEALTH</a>
+                </li>
+                <li>
+                <a href="https://www.noon.com/egypt-en/baby">BABY</a>
+                </li>
+                <li>
+                <a href="https://www.noon.com/egypt-en/grocery">SUOPERMARKET</a>
+                </li>
+                <li class="lastchild">
+                <a class="deals" href="https://www.noon.com/egypt-en/daily-deals-eg">DEALS</a>
+                </li>
+            </ul>
+            <div class="empty1"></div>
+        </div>    
+        
+        <!-- End NavBar -->
+        
+        <!-- Start Slider -->
+        
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="css/images/slide1.jpg" style="width:800px">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="css/images/slide2.jpg" style="width:800px">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="css/images/slide3.jpg" style="width:800px">
+  <div class="text">Caption Three</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+        
+        <!-- End Slider -->
+        
+        <!-- Start content -->
+        <div class="content">
+           <!-- The content is divided into 3 sections ( borderImages - contentPicks - contentPanels) -->
+            
+            <!-- Start first section borderImages -->
+            <div class="borderImages">
+                <a href="https://www.noon.com/egypt-en/mobiles">
+                  <img src="css/images/phone.jpg" width="200">  
+                </a>
+                <a href="https://www.noon.com/egypt-en/electronics">
+                  <img src="css/images/earphones.jpg" width="150">  
+                </a>
+                <a href="https://www.noon.com/egypt-en/fashion">
+                  <img src="css/images/fashion.jpg" width="200" >  
+                </a>
+                <a href="https://www.noon.com/egypt-en/beauty">
+                  <img src="css/images/makeup.jpg" width="200">  
+                </a>
+                <a href="https://www.noon.com/egypt-en/television">
+                  <img src="css/images/tvs.jpg" width="150">  
+                </a>
+                <a href="https://www.noon.com/egypt-en/home-kitchen">
+                  <img src="css/images/homeandkitchen.jpg" width="150">  
+                </a>
+                <a href="https://www.noon.com/egypt-en/grocery">
+                  <img src="css/images/grocery.jpg" width="150">  
+                </a>
+                <a href="https://www.noon.com/egypt-en/baby">
+                  <img src="css/images/baby.jpg" width="200">  
+                </a>
+            </div>
+            <!-- End first section borderImages -->
+            
+            <!-- Start second section contentPicks -->
+            <div class="contentPicks">
+              
+               <div class="firstPick">
+                    <a href="https://www.noon.com/egypt-en/15-db1035ne-laptop-with-15-6-inch-hd-display-amd-athlon-300u-processor-4gb-ddr4-1tb-hdd-amd-radeon-vega-3-integrated-graphics-card-dos-jet-black/N41409400A/p?o=d27a4f3d5a4a472c">
+                        <img src="css/images/labtop.jpg" width="200px">
+                        <p>15-db1035ne Laptop With 15.6-Inch HD Display</p>
+                        <p class="realPrice">EGP 7199.00</p>
+                        <P style="float: left;" class="priceAfterDiscount">EGP 8999</P>
+                        <span class="discountValue">20%</span>     
+                    </a>
+                </div>
+                <div class="secondPick">
+                    <a href="https://www.noon.com/egypt-en/slim-fit-artificial-leather-jacket-black/N42773201V/p?o=c5d7c5785817e67c">
+                        <img src="css/images/manwearingjacket.png" width="150px">
+                        <p>Slim Fit Artificial Leather Jacket Black</p>
+                        <p class="realPrice">EGP 999.00</p>
+
+                    </a>
+                </div>
+                <div class="secondPick">
+                    <a href="https://www.noon.com/egypt-en/galaxy-note-10-plus-aura-black-12gb-ram-256gb-4g-lte/N29705805A/p?o=d04454695d38c3fd">
+                        <img src="css/images/note10.png" width="150px">
+                        <p>Galaxy Note 10 Plus Aura Black 12GB RAM 256GB 4G LTE</p>
+                        <p class="realPrice">EGP 7199.00</p>
+                        <P class="priceAfterDiscount">EGP 15999</P>
+                        <span class="discountValue">18%</span>
+                    </a>
+                </div>
+                <div class="secondPick">
+                    <a href="https://www.noon.com/egypt-en/galaxy-note-10-plus-aura-black-12gb-ram-256gb-4g-lte/N29705805A/p?o=d04454695d38c3fd">
+                        <img src="css/images/expresso.png" width="150px">
+                        <p>Electric Espresso Machine 1140W TCM-11415-B Black/Silver</p>
+                        <p class="realPrice">EGP 1999.00</p> 
+                    </a>
+                </div>
+                <div class="secondPick">
+                    <a href="https://www.noon.com/egypt-en/galaxy-note-10-plus-aura-black-12gb-ram-256gb-4g-lte/N29705805A/p?o=d04454695d38c3fd">
+                        <img src="css/images/girls.png" width="150px">
+                        <p>Pack Of 2 Tank Top Set Black/White</p>
+                        <p class="realPrice">EGP 99.00</p>
+                        <P class="priceAfterDiscount">EGP 299</P>
+                        <span class="discountValue">66%</span>
+
+                    </a>
+                </div>
+                <div class="secondPick">
+                    <a href="https://www.noon.com/egypt-en/galaxy-note-10-plus-aura-black-12gb-ram-256gb-4g-lte/N29705805A/p?o=d04454695d38c3fd">
+                        <img src="css/images/shoe.png" width="150px">
+                        <p>Dawara Casual Shoes Black</p>
+                        <p class="realPrice">EGP 165.00</p>
+                        <P class="priceAfterDiscount">EGP 250</P>
+                        <span class="discountValue">34%</span> 
+                    </a>
+                </div>
+                <div class="secondPick">
+                    <a href="https://www.noon.com/egypt-en/galaxy-note-10-plus-aura-black-12gb-ram-256gb-4g-lte/N29705805A/p?o=d04454695d38c3fd">
+                        <img src="css/images/boxers.png" width="150px">
+                        <p>6-Piece Boxer Set Multicolor</p>
+                        <p class="realPrice">EGP 189.00</p>
+                        <P class="priceAfterDiscount">EGP 499</P>
+                        <span class="discountValue">62%</span>  
+                    </a>
+                </div>
+            </div>
+            <!-- End second section contentPicks -->
+            
+            <!-- Start third section contentPanels -->
+            <div class="contentPanels">
+                <a href="https://www.noon.com/egypt-en/eg-mobile-offers">
+                    <img src="css/images/moblesPanel.PNG">
+                </a>
+                <a href="https://www.noon.com/egypt-en/eg-audio-yf20">
+                    <img src="css/images/audio.PNG">
+                </a>
+                <a href="https://www.noon.com/egypt-en/electronics-and-mobiles/television-and-video/televisions?f[is_fbn]=1">
+                    <img src="css/images/tvsPanel.PNG">
+                </a>
+                <a href="https://www.noon.com/egypt-en/electronics-and-mobiles/camera-and-photo-16165?f[is_fbn]=1">
+                    <img src="css/images/cameraPanel.PNG">
+                </a>
+                <a href="https://www.noon.com/egypt-en/electronics-and-mobiles/computers-and-accessories/laptops?f[is_fbn]=1">
+                    <img src="css/images/labtopPanel.png">
+                </a>
+                <a href="https://www.noon.com/egypt-en/electronics-and-mobiles/wearable-technology?f[is_fbn]=1">
+                    <img src="css/images/watchesPanel.PNG">
+                </a>
+            </div>
+            <!-- Start third section contentPanels -->
+        </div>
+        <!-- End Content -->
+        
+        <!-- Start Contact Us -->
+        <div class="contactUs">
+            <div class="contactText">
+                <p class="contactText1">We're Always Here To Help</p>
+                <p class="contactText2">Reach out to us through any of these support channels</p>
+            </div>
+            
+            <div class="contactUsIcon">
+               <div class="contactUsIcons">
+                  <div class="contactUsIcon1">
+                      <a href="https://help.noon.com/hc/en-us">
+                           <img src="css/images/informataion.png" width="30">
+                           <p style="width: 200px;">HELP CENTER</p>
+                           <p class="insideP1">help.noon.com</p>
+                       </a>
+                   </div>
+                   <div class="contactUsIcon2">
+                      <a href="mailto:egypt@noon.com">
+                           <img src="css/images/message.png" width="30">
+                           <p style="width: 200px">EMAIL SUPPORT</p>
+                           <p class="insideP2">egypt@noon.com</p>
+                       </a>
+                   </div>
+                   <div class="contactUsIcon3">
+                      <a href="http://tel:16358/">
+                           <img src="css/images/call.png" width="30">
+                           <p style="width: 200px;">PHONE SUPPORT</p>
+                           <p class="insideP3">16358</p>
+                       </a>
+                   </div>
+                </div>  
+            </div>
+            <div style="clear: both"></div>
+        </div>
+        <div style="clear: both;"></div>
+        <!-- End Contact Us -->
+        
+        <!-- Start Categories -->
+        <div class="categories">
+            
+            <ul class="cateUl1">
+                <li>ELECTRONICS
+                    <ul class="insideUl1">
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/mobiles-20905" target="_blank">Mobiles</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/tablets" target="_blank">Tablets</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/laptops" target="_blank">Laptops</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/home-appliances-31235" target="_blank">Home Appliances</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/camera-and-photo-16165" target="_blank">Camera, Photo &amp; Video</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/televisions">Televisions</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/headphones-24056" target="_blank">Headphones</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/video-games-10181" target="_blank">Video Games</a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li>FASHION
+                    <ul class="insideUl2">
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/women-31229" target="_blank">Women's Fashion</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/men-31225" target="_blank">Men's Fashion</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/girls-31223" target="_blank">Girls' Fashion</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/boys-31221" target="_blank">Boys' Fashion</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/mens-watches" target="_blank">Men's Watches</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/womens-watches">Women's Watches</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/eyewear-store" target="_blank">Eyewear</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/luggage-and-bags" target="_blank">Bags &amp; Luggage</a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li>HOME AND KITCHEN
+                    <ul class="insideUl3">
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/kitchen-and-dining" target="_blank">Kitchen &amp; Dining</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/bedding-16171" target="_blank">Bedding</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/bath-16182" target="_blank">Bath</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/home-decor" target="_blank">Home Decor</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/home-appliances-31235" target="_blank">Home Appliances</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/tools-and-home-improvement">Tools &amp; Home Improvement</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/home-and-kitchen/patio-lawn-and-garden" target="_blank">Patio, Lawn &amp; Garden</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/storage-and-organisation" target="_blank">Home Storage &amp; Organisation</a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li>BEAUTY
+                    <ul class="insideUl4">
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/fragrance?f[department]=unisex&f[department]=women" target="_blank">Women's Fragrance</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/fragrance?f[department]=unisex&f[department]=men" target="_blank">Men's Fragrance</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/makeup-16142" target="_blank">Make-Up</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/hair-care" target="_blank">Haircare</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/skin-care-16813" target="_blank">Skincare</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/personal-care-16343">Personal Care</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/tools-and-accessories" target="_blank">Tools &amp; Accessories</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/mens-grooming" target="_blank">Men's Grooming</a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li>KIDS, BABY &amp; TOYS
+                    <ul class="insideUl5">
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/strollers-18691" target="_blank">Strollers, Prams &amp; Accessories</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/car-seats-and-accessories" target="_blank">Car Seats</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/kids-clothing" target="_blank">Baby Clothing</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/feeding-16153" target="_blank">Feeding</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/baby-products/bathing-and-skin-care" target="_blank">Bathing &amp; Skincare</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/diapering">Diapering</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/toys-and-games/baby-and-toddler-toys" target="_blank">Baby &amp; Toddler Toys</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/toys-and-games" target="_blank">Toys &amp; Games</a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li>TOP BRANDS
+                    <ul class="insideUl6">
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/apple" target="_blank">Apple</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/samsung" target="_blank">Samsung</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/nike" target="_blank">Nike</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/ray_ban/rayban" target="_blank">Ray-Ban</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/tefal" target="_blank">Tefal</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/loreal">L'Oreal Paris</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/chicco" target="_blank">Chicco</a>
+                        </li>
+                        <li>
+                            <a href="https://www.noon.com/egypt-en/tornado" target="_blank">Tornado</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <div style="clear: both;"></div>
+        </div>
+        <!-- End Categories -->
+        
+        <!-- Start footer -->
+        <div class="footer">
+            
+            <div class="rights">
+                &copy; 2021 noon. All Rights Reserved
+            </div>
+            
+            <div class="footerIcons">
+                <ul>
+                    <li>
+                        <a href="https://www.mastercard.us/en-us.html" target="_blank"><img src="css/images/mastercard.png" width="50"></a>
+
+                    </li>
+                    <li>
+                       <a href="https://eg.visamiddleeast.com/ar_EG/pay-with-visa/find-a-card/credit-cards.html" target="_blank"><img src="css/images/visa.png" width="50px"></a>
+
+                    </li>
+                    <li>
+                       <a href="https://www.paypal.com/eg/home" target="_blank"><img src="css/images/paypal.png" width="60px"></a>
+
+                    </li>
+                    <li>
+                       <a href="https://www.americanexpress.com/" target="_blank"><img src="css/images/American%20Express.png" width="60px"></a>
+
+                    </li>
+                    <li>
+                       <a href="https://bitcoin.org/ar/" target="_blank"><img src="css/images/Bitcoin.png" width="60x"></a>
+
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="footerlinks">
+                <ul>
+                    <li><a href="https://www.jobsatnoon.com/" target="_blank">Careers</a></li>
+                    <li><a href="https://www.noon.com/egypt-en/warranty-policy" target="_blank">Warranty policy</a></li>
+                    <li><a href="https://login.noon.partners/en/register" target="_blank" >Sell with us</a></li>
+                    <li><a href="https://www.noon.com/egypt-en/terms-of-use" target="_blank" >Terms of Use</a></li>
+                    <li><a href="https://www.noon.com/egypt-en/terms-of-sale" target="_blank">Terms of Sale</a></li>
+                    <li><a href="https://www.noon.com/egypt-en/privacy-policy" target="_blank">Privacy Policy</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        
+        <div style="clear: both"></div>
+        <!-- End Footer -->
+    
+    </body>
+</html>

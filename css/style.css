@@ -1,0 +1,695 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Tahoma;
+
+}
+
+
+/* Start Header */
+
+.header
+{
+    background-color: #FEEE00;
+    padding: 5px;
+    position: relative;
+    width: 100%;
+}
+
+/* The Noon Logo in the header */
+.noonlogo
+{
+    float: left;
+    margin-right: 40px;
+    
+}
+
+.search
+{
+    width: 70%;
+    height: 5px;
+    padding: 15px;
+    border-radius: 8px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 5px;
+   
+}
+
+.lang
+{
+    float: left;
+    width: 5px;
+    margin-right: 50px;
+}
+
+.country
+{
+    
+}
+
+.empty1
+{
+    clear: both;
+}
+
+.country
+{
+    margin-top: 15px;
+    float: left;
+}
+
+.link
+{
+    margin-top: 15px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.signin
+{
+    text-decoration: none;
+    margin-top: 15px;
+    
+}
+
+.signin:hover
+{
+    color: #676767;
+    text-decoration: underline;
+}
+
+.cart
+{
+   text-decoration: none;
+    margin-top: 15px; 
+}
+
+.cart:hover
+{
+   color: #676767;
+    text-decoration: underline;
+}
+
+.cartandimage
+{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+/* End Header */
+
+/* Start NavBar */
+
+.dropbtn {
+  background-color: white;
+  color: blue;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+    float: left;
+    
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: white;
+}
+
+
+
+.navbar .widelinks
+{
+    background-color: #DDD;
+    list-style: none;
+    padding: 0px;
+    padding-bottom: 3px;
+    margin: 0px;
+    text-align: center;
+}
+
+.widelinks .lastchild .deals
+{
+    color: red;
+}
+
+.navbar .widelinks li
+{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.navbar .widelinks li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .widelinks li a:hover
+{
+    color: #676767;
+}
+
+
+/* End NavBar */
+
+/* Srart Slider */ 
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* End Slider */
+
+/* Start content */ 
+
+.borderImages a img
+{
+    border-radius: 5000px;
+    border: 5px solid yellow;
+}
+
+.contentPicks
+{
+    height: 350px;
+    margin-left: 50px;
+}
+
+.contentPicks .firstPick
+{
+    width: 150px;
+    float: left;
+    padding-right: 50px;
+}
+
+.contentPicks a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.realPrice
+{
+    font-size: 20px;
+}
+
+a .priceAfterDiscount
+{
+    text-decoration: line-through;
+    color: #333;
+    float: left;
+    margin: 0px;
+    margin-right: 10px;
+    padding: 0px;
+}
+
+.discountValue
+{
+    text-decoration: none;
+    color: green;
+}
+
+.contentPicks .secondPick
+{
+    float: left;
+    width: 200px;
+    margin-left: 10px;
+
+}
+
+.contentPicks .secondPick
+{
+    float: left;
+    width: 200px;
+
+}
+
+/* End content */ 
+
+
+/* Start Contact Us */
+
+.contactUs
+{
+    background-color: #F7F7FA;
+    padding: 20px;
+    border: .5px solid gray;
+    position: relative;
+    margin: 0px;
+}
+
+.contactText
+{
+    float: left;
+    width: 50%;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.contactText1
+{
+    margin: 0px;
+    color: #404553;
+    font-size: 25px;
+    padding-top: 0px
+}
+
+.contactText2
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    color: #7E859B;
+}
+
+.contactUsIcon1
+{
+    float: left;
+    margin-right: 10px;
+    margin-left: 90px;
+
+}
+
+.contactUsIcon1 > a
+{
+    text-decoration: none;
+    color: #404553;
+    font-size: 12px;
+}
+
+.contactUsIcon1 > a:hover
+{
+    text-decoration: none;
+    color: #676767;
+}
+
+.contactUsIcon1  a img
+{
+    float: left;
+    padding-right: 5px;
+}
+
+.insideP1
+{
+    margin: 0px; 
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.contactUsIcon2
+{
+    float: left;
+    margin-right: 10px;
+    
+
+}
+
+.contactUsIcon2 > a
+{
+    text-decoration: none;
+    color: #404553;
+    font-size: 12px;
+}
+
+.contactUsIcon2 > a:hover
+{
+    text-decoration: none;
+    color: #676767;
+}
+
+.contactUsIcon2  a img
+{
+    float: left;
+    padding-right: 5px;
+}
+
+.insideP2
+{
+    margin: 0px; 
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.contactUsIcon3
+{
+    float: left;
+    margin-right: 10px;
+}
+
+.contactUsIcon3 > a
+{
+    text-decoration: none;
+    color: #404553;
+    font-size: 12px;
+}
+
+.contactUsIcon3 > a:hover
+{
+    text-decoration: none;
+    color: #676767;
+}
+
+.contactUsIcon3  a img
+{
+    float: left;
+    padding-right: 5px;
+}
+
+.insideP3
+{
+    margin: 0px; 
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+/* End Contact Us */
+
+/* Start Categories */
+
+.categories
+{
+    background-color: #FFFFFF;
+}
+
+.categories .cateUl1
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+}
+
+.categories .cateUl1 > li
+{
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 25px;
+    padding: 10px;
+}
+
+.insideUl1
+{
+    margin: 0PX;
+    padding: 0px;
+}
+
+.insideUl1 li
+{
+    list-style: none;
+    padding: 5px;
+}
+
+.insideUl1 li a
+{
+    text-decoration: none;
+    color: #404553;
+}
+
+.insideUl2
+{
+    margin: 0PX;
+    padding: 0px;
+}
+
+.insideUl2 li
+{
+    list-style: none;
+    padding: 5px;
+}
+
+.insideUl2 li a
+{
+    text-decoration: none;
+    color: #404553;
+}
+
+.insideUl3
+{
+    margin: 0PX;
+    padding: 0px;
+}
+
+.insideUl3 li
+{
+    list-style: none;
+    padding: 5px;
+}
+
+.insideUl3 li a
+{
+    text-decoration: none;
+    color: #404553;
+}
+
+.insideUl4
+{
+    margin: 0PX;
+    padding: 0px;
+}
+
+.insideUl4 li
+{
+    list-style: none;
+    padding: 5px;
+}
+
+.insideUl4 li a
+{
+    text-decoration: none;
+    color: #404553;
+}
+
+.insideUl5
+{
+    margin: 0PX;
+    padding: 0px;
+}
+
+.insideUl5 li
+{
+    list-style: none;
+    padding: 5px;
+}
+
+.insideUl5 li a
+{
+    text-decoration: none;
+    color: #404553;
+}
+
+.insideUl6
+{
+    margin: 0PX;
+    padding: 0px;
+}
+
+.insideUl6 li
+{
+    list-style: none;
+    padding: 5px;
+}
+
+.insideUl6 li a
+{
+    text-decoration: none;
+    color: #404553;
+}
+
+/* End Categories */
+
+/* Start footer */
+
+.footer
+{
+    background-color: #F7F7FA;
+    margin: 0px;
+    padding: 30px;
+}
+
+.footer .rights
+{
+    float: left;
+    margin-right: 100px;
+    margin-top: 0px
+}
+
+.footer .footerIcons
+{
+    float: left;
+    margin-top: -35px;
+    margin-right: 50px;
+}
+
+.footer .footerIcons ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer .footerIcons ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.footerlinks ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.footerlinks ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footerlinks ul li a
+{
+    text-decoration: none;
+    color: #333;
+}
+
+.footerlinks ul li a:hover
+{
+    color: #676767;
+    text-decoration: underline;
+}
+
+/* End footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
